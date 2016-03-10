@@ -5,4 +5,4 @@ echo "cd-ing to $here"
 cd "$here" || exit 1
 
 export BITCODE="-fembed-bitcode"
-./build-libc++
+./build-libc++ $1
